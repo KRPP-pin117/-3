@@ -11,8 +11,11 @@ namespace КРПП_лаба_3
         static void Main(string[] args)
         {
             long a;
+            long a2;
             a = (long) Math.Pow(2, 60);
-            Console.WriteLine(a);
+            a2 = a + 1;
+            Console.WriteLine("С одной амебой  " + a);
+            Console.WriteLine("С двумя амебами  " + a2);
             Console.ReadLine(); 
 
         }
