@@ -10,7 +10,7 @@ namespace КРПП_лаба_3
     {
         static void Main(string[] args)
         {
-            
+            int minute = 60;
         }
     }
 }
