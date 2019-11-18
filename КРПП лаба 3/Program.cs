@@ -13,10 +13,20 @@ namespace КРПП_лаба_3
             long a;
             long a2;
             a = (long) Math.Pow(2, 60);
-            a2 = a + 1;
+            
+            double count = 60;
             Console.WriteLine("С одной амебой  " + a);
-            Console.WriteLine("С двумя амебами  " + a2);
-            Console.ReadLine(); 
+
+            for (int i = 2; count > i; i++)
+            {
+                a2 = (long) Math.Pow(2, i);
+                Console.WriteLine("С двумя амебами  " + a2);
+
+            }
+
+            Console.ReadLine();
+
+
 
         }
     }
