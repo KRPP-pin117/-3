@@ -10,7 +10,11 @@ namespace КРПП_лаба_3
     {
         static void Main(string[] args)
         {
-            int minute = 60;
+            long a;
+            a = (long) Math.Pow(2, 60);
+            Console.WriteLine(a);
+            Console.ReadLine(); 
+
         }
     }
 }
