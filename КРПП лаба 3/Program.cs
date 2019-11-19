@@ -11,7 +11,7 @@ namespace КРПП_лаба_3
         static void Main(string[] args)
         {
             long a;
-            long a2;
+            long a2 = 0;
             a = (long) Math.Pow(2, 60);
             
             double count = 60;
@@ -20,10 +20,10 @@ namespace КРПП_лаба_3
             for (int i = 2; count > i; i++)
             {
                 a2 = (long) Math.Pow(2, i);
-                Console.WriteLine("С двумя амебами  " + a2);
+                //Console.WriteLine("С двумя амебами  " + a2);
 
             }
-
+            Console.WriteLine("С двумя амебами  " + a2);
             Console.ReadLine();
 
 
